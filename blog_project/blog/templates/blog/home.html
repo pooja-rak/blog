@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Home</title>
+</head>
+<body>
+    <h1>Welcome to My Blog</h1>
+    <hr>
+    {% for post in posts %}
+        <h2><a href="{{ post.slug }}">{{ post.title }}</a></h2>
+        <p>By {{ post.author }} on {{ post.created_at }}</p>
+        <p>{{ post.content|truncatewords:30 }}</p>
+        <hr>
+    {% endfor %}
+</body>
+</html>
