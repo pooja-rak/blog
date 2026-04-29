@@ -1,10 +1,3 @@
-I couldn’t directly access your exact GitHub file contents (your repo page didn’t fully load in search results), so I created a **professional, clean README** based on a typical **Django blog project structure**. You can paste this into your repo and tweak small details (like features, screenshots, etc.).
-
----
-
-## 📌 README.md for your project
-
-```md
 # 📝 Blog Project (Django)
 
 A fully functional blog web application built using Django.  
